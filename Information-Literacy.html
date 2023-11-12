@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORMATION SYSTEM CONSULTANCY PROJECT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>    
+    <header>
+        <img src="logo.png" alt="Company Logo" id="logo">
+        <h1>Information Qaulity</h1>
+    </header>
+    <nav>
+        <UL class="page-nav">
+            <li><a href="Table-of-Contents.html">Table of Contents</a></li>
+            <li><a href="Information-Literacy.html">Information Literacy</a></li>
+            <li><a href="Information-System-Integration.html">Information System Integration</a></li>
+            <li><a href="Data-Visualization.html">Data Visualization</a></li>
+            <li><a href="customising-information-systems.html">Customising Information Systems</a></li>
+            <li><a href="information-qaulity.html">Information Qaulity</a></li>
+            <li><a href="data-ethics.html">Data Ethics</a></li>
+            <li><a href="AI-and-Information-System.html">AI And Information System In Business</a></li>
+            <li><a href="References.html">References</a></li>
+        </UL>
+    </nav>
+    <main class="page">
+        <aside class="content-nav">
+            <button id="nav-1">Definition</button>
+            <button id="nav-2">Practical Application</button>
+        </aside>
+
+        <section id="s1" class="content">
+            <h2>An Introduction into Information Literacy in Business</h2>
+
+            <hr>
+            <br>
+
+           
+            <div class="text-with-image">
+                <img src="Picture1.jpg" alt="">
+
+                <p>
+                    Information literacy encompasses a range of interconnected skills, including the ability to thoughtfully discover information, 
+                    understand its origins and value, and utilize it in the creation of new knowledge while engaging ethically in learning communities. 
+                    This competence extends to the capacity to locate, assess, arrange, employ, and convey information across various formats, notably in 
+                    contexts that necessitate decision-making, problem-solving, or knowledge acquisition. It embodies a blend of proficiencies in research, 
+                    critical thinking, computer technology, and communication.
+                </p>
+            </div>
+
+            <p>               
+                These competencies [which were previously mentioned] are crucial for effective workplace performance, such as capabilities to:
+
+                <ul>
+                    <li>
+                        Recognize the generation, validation, and dissemination processes of new information from various sources.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        Efficiently discover, assess, and utilize information resources.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        Assess the relevance, quality, and scope of information essential for decision-making.
+                    </li>
+                </ul>
+            </p>
+
+            <br>
+
+            <p>
+                Irrespective of your career stage, continuous enhancement of both soft and technical skills, including information literacy, is advisable. By 
+                cultivating and emphasizing your information literacy competencies, you can position yourself as an ideal candidate and a valuable asset in any 
+                organization. 
+            </p>
+        </section>
+
+        <section id="s2" class="content">
+            <h2>Practical ways to apply information literacy skills in the workplace include- </h2>
+            
+            <hr>
+            <br>
+
+            <p>
+                <ul>
+                    <li>
+                        Utilizing information to accomplish specific objectives, demonstrating your ability to locate and use data to address departmental and organizational challenges.
+                    </li><br>
+
+                    <li>
+                        Identifying the type and quantity of information necessary for a project or presentation, underscoring the significance of preparation.
+                    </li><br>
+
+                    <li>
+                        Discern sources that furnish pertinent and credible data and diligently evaluating their reliability before disseminating the information.
+                    </li><br>
+
+                    <li>
+                        Adhering to best practices in attributing credit to sources, thus avoiding plagiarism and copyright violations.
+                    </li><br>
+
+                    <li>
+                        Communicating information effectively and efficiently, synthesizing insights to facilitate others' comprehension of issues or topics. 
+                    </li><br> 
+                </ul>
+            </p>
+
+            <br>
+
+            <div class="image-with-text">
+                <img src="" alt="">
+
+                <p>
+                    In the contemporary, dynamic, data-centric business landscape, information literacy represents a distinct competitive advantage. It 
+                    empowers improved decision-making, fosters innovation, and enhances adaptability in response to evolving circumstances. Business 
+                    leaders and employees equipped with information literacy skills are better positioned to grasp market trends, respond to competition, 
+                    and comprehend customer preferences, ultimately contributing to the success and sustainability of their enterprises. 
+                </p>
+            </div>
+        </section>
+
+
+        <script>
+                    // Get references to all section elements
+const section1 = document.getElementById("s1");
+const section2 = document.getElementById("s2");
+
+// Get references to all navigation buttons
+const button1 = document.getElementById("nav-1");
+const button2 = document.getElementById("nav-2");
+
+// Function to show a specific section and hide others
+function showSection(section) {
+  section1.style.display = "none";
+  section2.style.display = "none";
+  section.style.display = "block";
+}
+
+// Add click event listeners to navigation buttons
+button1.addEventListener("click", () => {
+  showSection(section1);
+});
+
+button2.addEventListener("click", () => {
+  showSection(section2);
+});
+
+// Initially show the first section
+showSection(section1);
+
+        </script>
+    </main>
+    <footer>
+        <p>&copy; 2023 INF Solutions</p>
+    </footer>
+
+</body>
+</html>

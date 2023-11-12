@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORMATION SYSTEM CONSULTANCY PROJECT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>    
+    <header>
+        <img src="logo.png" alt="Company Logo" id="logo">
+        <h1>Data Visualization</h1>
+    </header>
+    <nav>
+        <UL class="page-nav">
+            <li><a href="Table-of-Contents.html">Table of Contents</a></li>
+            <li><a href="Information-Literacy.html">Information Literacy</a></li>
+            <li><a href="Information-System-Integration.html">Information System Integration</a></li>
+            <li><a href="Data-Visualization.html">Data Visualization</a></li>
+            <li><a href="customising-information-systems.html">Customising Information Systems</a></li>
+            <li><a href="information-qaulity.html">Information Qaulity</a></li>
+            <li><a href="data-ethics.html">Data Ethics</a></li>
+            <li><a href="AI-and-Information-System.html">AI And Information System In Business</a></li>
+            <li><a href="References.html">References</a></li>  
+        </UL>
+    </nav>
+    <main class="page">
+        <aside class="content-nav">
+            <button id="nav-1">Definition</button>
+            <button id="nav-2">Uses</button>
+            <button id="nav-3">Advantages</button>
+            <button id="nav-4">Disadvantages</button>
+            <button id="nav-5">Types</button>         
+        </aside>
+
+        <section id="s1" class="content">
+            <h2>What is Data Visualization?</h2>
+
+            <br><hr>
+
+            <p>
+                The use of images to represent information it is meant to make understanding information easier. 
+                by taking information and putting it in a visual format such as graphs and diagrams. Putting extensive 
+                amounts of information from words to a simple visual format.  
+            </p>
+
+            
+
+        </section>
+
+        <section id="s2" class="content">
+                <h2>Uses of Data Visualization</h2>
+
+                <p>
+                    People’s eyes are easily capture bright and colourful patterns and images. 
+                By putting information in a visual format it grabs a person’s attention 
+                and interest making it easier for information to be absorbed.
+                    
+                </p>
+              
+                <hr>
+                <br>
+        
+       
+                    <p><ol> 
+                        <li>Date scheduling</li><br>
+                        <li>Recognizing patterns</li><br>
+                        <li>
+                            Predictability: by seeing the patterns you can determine the outcomes of the future e.g. 
+                            Risk assessment we can determine how great a risk is just by simply compiling the information 
+                            in to a visual aspect and see where the links to the risks are from.
+                        </li><br>
+                        <li>It helps to get critical pieces of information across to people in a simpler manner </li><br>
+                    </ol></p>
+             
+        </section>
+
+        <section id="s3" class="content">
+            <h2>Advantages of Data Visualization</h2>
+
+
+            <p>
+                People’s eyes are easily capture bright and colourful patterns and images. 
+                By putting information in a visual format it grabs a person’s attention 
+                and interest making it easier for information to be absorbed.
+            </p>
+                    
+                <hr>
+                <br>
+        
+           
+                    <p><ol> 
+                        <li>Simplifies information because the information is in pictures instead of words</li><br>
+                        <li>Helps compile information in a simpler manner </li><br>
+                        <li>Helps to discover patterns easier which in turn helps with predictability</li><br>
+                        <li>It makes memorising information more easily</li><br>
+                    </ol></p>
+                
+        </section>
+
+        <section id="s4" class="content">
+            <h2>Disadvantages of Data Visualization</h2>
+
+            <p>
+                It can be very difficult to sometimes make sense of the diagrams and graphs. It can sometimes the information 
+            can be misinterpreted or the data can be designed wrong and the diagram could be biased or hard to interoperate.
+
+            </p>
+
+
+            <hr>
+            <br>
+
+      
+                <p><ol> 
+                    <li>In accurate information could be given or mostly biased</li><br>
+                    <li>The diagram could be too confusing making harder instead of easier to interoperate  </li><br>
+                </ol></p>
+            </div>
+
+        </section>
+
+        <section id="s5" class="content">
+            <h2>Types of Visual Data</h2>
+           
+            <hr>
+            <br>
+
+            <div id="t1" class="image-with-text">
+                <h2>Pie Charts</h2>
+                <img src="pic6.jpg" alt="">
+            </div>
+
+            <div id="t2" class="image-with-text">
+                <h2>Line Charts</h2>
+                <img src="pic8.png" alt="">
+            </div>
+
+            <div id="t3" class="image-with-text">
+                <h2>Histogram</h2>
+                <img src="pic9.pngs" aslt="">
+            </div>
+
+            <div id="t4" class="image-with-text">
+                <h2>Pyramid Diagrams</h2>
+                <img src="pic10.jpg" alt="">
+            </div>
+
+            <div id="t5" class="image-with-text">
+                <h2>Radar Charts</h2>
+                <img src="pic11.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 INF Solutions</p>
+    </footer>
+
+    <script>
+        // Get references to all section elements
+const section1 = document.getElementById("s1");
+const section2 = document.getElementById("s2");
+const section3 = document.getElementById("s3");
+const section4 = document.getElementById("s4");
+const section5 = document.getElementById("s5");
+
+// Get references to all navigation buttons
+const button1 = document.getElementById("nav-1");
+const button2 = document.getElementById("nav-2");
+const button3 = document.getElementById("nav-3");
+const button4 = document.getElementById("nav-4");
+const button5 = document.getElementById("nav-5");
+
+// Function to show a specific section and hide others
+function showSection(section) {
+  section1.style.display = "none";
+  section2.style.display = "none";
+  section3.style.display = "none";
+  section4.style.display = "none";
+  section5.style.display = "none";
+  section.style.display = "block";
+}
+
+// Add click event listeners to navigation buttons
+button1.addEventListener("click", () => {
+  showSection(section1);
+});
+
+button2.addEventListener("click", () => {
+  showSection(section2);
+});
+
+button3.addEventListener("click", () => {
+  showSection(section3);
+});
+
+button4.addEventListener("click", () => {
+  showSection(section4);
+});
+
+button5.addEventListener("click", () => {
+  showSection(section5);
+});
+
+// Initially show the first section
+showSection(section1);
+
+    </script>
+</body>
+</html>

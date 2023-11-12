@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORMATION SYSTEM CONSULTANCY PROJECT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>    
+    <header>
+        <img src="logo.png" alt="Company Logo" id="logo">
+        <h1>Information Qaulity</h1>
+    </header>
+    <nav>
+        <UL class="page-nav">
+            <li><a href="Table-of-Contents.html">Table of Contents</a></li>
+            <li><a href="Information-Literacy.html">Information Literacy</a></li>
+            <li><a href="Information-System-Integration.html">Information System Integration</a></li>
+            <li><a href="Data-Visualization.html">Data Visualization</a></li>
+            <li><a href="customising-information-systems.html">Customising Information Systems</a></li>
+            <li><a href="information-qaulity.html">Information Qaulity</a></li>
+            <li><a href="data-ethics.html">Data Ethics</a></li>
+            <li><a href="AI-and-Information-System.html">AI And Information System In Business</a></li>
+            <li><a href="References.html">References</a></li>  
+        </UL>
+    </nav>
+    <main class="page">
+        <aside class="content-nav">
+            <button id="nav-1">Definition</button>
+            <button id="nav-2">Importance</button>
+        </aside>
+
+        <section id="s1" class="content">
+            <h2>Information Quality - What is it?</h2>
+
+            <hr>
+            <br>
+            
+            <div class="text-with-image">
+                <img src="Pic12.png" alt="" style="width: 400px; margin-right: 40px; margin-bottom: 40px;">
+
+                <p>
+                    The degree of accuracy, relevance, timeliness, and actionability of information is referred to as information quality. 
+                    Simply put, it is the calibre of the result that is produced when the raw data is utilized for a specific purpose. 
+                    Assessing and maintaining information quality often requires data quality management practices, data validation 
+                    procedures, and the use of information quality standards. Various industries and organisations have specific standards 
+                    and guidelines to maintain and improve the quality of their information assets. Comprehensively, in order to support 
+                    improved decision-making and the accomplishment of organizational objectives, information quality management aims to 
+                    guarantee that data and information are accurate, dependable, and suitable for their intended use.
+                </p>
+            </div>
+
+            <p>
+                Information quality is a vital aspect of data management and decision-making, encompassing several critical factors 
+                that determine the usefulness and reliability of data. In correlation to the above figure, these factors are namely:
+
+                <ul>
+                    <li>
+                        <b>Correctness</b>: When data contains mistakes, inconsistencies, or inaccuracies, the quality of the information is lowered.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>Accuracy</b>: Information's quality and dependability are influenced by how closely it represents the actual situation.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>Precision</b>: Exact details are provided for decision-making in high-quality information, which is specific and detailed.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>Timeliness</b>: Information loses significance if it is unavailable when it is required to make defensible decisions.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>Consistency</b>: Data that is consistent and free of contradictions upholds the quality of the information.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>Completeness</b>:  Information quality is ensured and knowledge gaps are avoided when all required data elements are present.
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>Cost</b>: It's important to weigh the resources needed to gather and manage data against the quality of the information.
+                       
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <b>Conformity</b> to Needs and Expectations: When data conforms to requirements, information quality is attained.
+                    </li>
+                   
+                </ul>
+            </p>
+        </section>
+
+        <section id="s2" class="content">
+            <h2>Why the quality of information is important</h2>
+            
+            <hr>
+            <br>
+
+            <p>
+                The quality of the information determines how much it can bring to business processes and, additionally, how much worth it has. That is why deficient information 
+                can erode a positive connection over time. Low-quality information reduces the value of records when it is utilized for record keeping. In severe circumstances, 
+                inaccurate information may cause problems with money or the law. Poor information results in inefficient time management and inferior choices from decision makers. 
+                Information may establish a connection between an organization and its clients or members. 
+                
+                <br>
+                <br>
+
+                Poor quality information is unable to accomplish these goals, therefore 
+                the production division may create the incorrect products or quantities in an instance where it receives a poor-quality sales estimate.
+            </p>
+        </section>
+
+
+        <script>
+                    // Get references to all section elements
+const section1 = document.getElementById("s1");
+const section2 = document.getElementById("s2");
+
+// Get references to all navigation buttons
+const button1 = document.getElementById("nav-1");
+const button2 = document.getElementById("nav-2");
+
+// Function to show a specific section and hide others
+function showSection(section) {
+  section1.style.display = "none";
+  section2.style.display = "none";
+  section.style.display = "block";
+}
+
+// Add click event listeners to navigation buttons
+button1.addEventListener("click", () => {
+  showSection(section1);
+});
+
+button2.addEventListener("click", () => {
+  showSection(section2);
+});
+
+// Initially show the first section
+showSection(section1);
+
+        </script>
+    </main>
+    <footer>
+        <p>&copy; 2023 INF Solutions</p>
+    </footer>
+
+</body>
+</html>

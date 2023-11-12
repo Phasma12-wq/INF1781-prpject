@@ -1,0 +1,177 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+    line-height: 1.5;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.page{
+    max-width: 1800px;
+
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    display: grid;
+
+    grid-template-areas:
+                    "nav text text"
+                    "nav text text"
+                    "nav text text";
+    grid-template-columns: 170px 1fr 100px;
+    grid-template-rows: 100px 1fr;
+}
+
+.page > .content-nav{
+    grid-area: nav;
+
+    background-color: black;
+    max-width: 400px;
+    
+    padding: 20px;
+
+    display: flexbox;
+
+    margin-right: 10px;
+}
+
+.content-nav{
+    font-size: x-large;
+
+    max-height: 500px;
+}
+
+.content-nav button{
+    color: white;
+    background-color: transparent;
+
+    border-color: transparent;
+
+    font-size: large;
+
+    margin-bottom: 50px;
+
+    transition-duration: 0.2s;
+}
+
+.content-nav button:hover{
+    transform: translateX(-10px);
+}
+
+.page > .content{
+    grid-area: text;
+}
+
+section {
+    margin-bottom: 20px;
+
+    max-height: 600px;
+
+    overflow-y:scroll;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#logo {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    max-height: 120px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.image-with-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-with-text img {
+    max-width: 50%; 
+    margin-right: 20px;
+}
+
+.image-with-text p {
+    flex: 1; 
+}
+.image-row {
+    display: flex; 
+}
+
+.image-row img {
+    max-width: 33%;
+}
+.text-with-image {
+    display: flex;
+    align-items: center;
+}
+
+.text-with-image p {
+    flex: 1; 
+    
+}
+
+.text-with-image img {
+    max-width: 50%; 
+    margin-left: 20px; 
+   
+}
+
